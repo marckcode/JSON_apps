@@ -1,0 +1,18 @@
+# document/object/instance
+{
+    "username": "coding_ninja",
+    "email": "ninja@example.com",
+    "age": 25
+}
+
+# $schema -> meta schema
+schema = {
+  "$schema": "https://json-schema.org/draft/2020-12/schema", 
+  "type": "object",
+  "properties": {
+      "username": {"type": "string"},
+      "email": {"type": "string", "format": "email"},
+      "age": {"type": "integer"}
+  },
+  "required": ["username", "email", "age"]
+}

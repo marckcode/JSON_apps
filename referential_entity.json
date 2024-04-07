@@ -1,0 +1,20 @@
+{
+    "title": "Inception",
+    "director": "Christopher Nolan",
+    "year": 2010,
+    "genres": ["Sci-fi", "Action", "Thriller"],
+    "cast": [
+        {
+            "name": "Leonardo DiCaprio",
+            "role": "Dom Cobb"
+        },
+        {
+            "name": "Ellen Page",
+            "role": "Ariadne"
+        }
+    ],
+    "ratings": {
+        "IMDb": 8.8,
+        "Rotten Tomatoes": 87
+    }
+}

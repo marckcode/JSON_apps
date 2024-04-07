@@ -1,0 +1,5 @@
+{
+    "purchaserContact": {"type": "string"},
+    "purchaserContactEmail": {"type": "string", "format": "email"},       # validates marckcode@gmail.com
+    "purchaserContactPhone": {"type": "string", "pattern": "^[0-9]{10}$"} # 949183165
+}
