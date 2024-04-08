@@ -105,4 +105,26 @@
         - "type": "string",
         - "contentEncoding": "base64"
       - }
+  
 
+## Crafting Customized Formats
+
+## Dereferencing
+- Define schemas more modularly, combine them by reference.
+- $id is used to assign unique identifiers to schemas
+- Registry: Collection of resources, where each resource is a schema or a part of schema that has a unique identifier.
+
+# Task 3: Programmatic JSON Document Validation From API
+
+- Inspect the following JSON document, which contains USD and CAD stock price information:
+  -  <a>https://www.andybek.com/api/data/stock-tickers</a>
+- Define a restrictive schema for the data that will identify records
+- Using Python, read in the JSON document and validate it against the schema
+- Generate a report that indicates which records are invalid, e.g.
+
+-> Invalid Records:
+- Record: ('curreny' is a required property) 
+{
+  "ticker": "GOOGL",
+  "price": 100.2
+}
