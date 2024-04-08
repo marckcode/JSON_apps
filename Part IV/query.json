@@ -1,0 +1,12 @@
+{
+    "store": {
+        "book": [
+            {"title": "Sayings of the century", "price": 8.95},
+            {"title": "Sword of honour", "price": 12.99}
+        ],
+        "bicycle": {
+            "color": "red",
+            "price": 19.95
+        }
+    }
+}

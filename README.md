@@ -109,7 +109,7 @@
 
 ## Crafting Customized Formats
 
-## Dereferencing
+# 3. Dereferencing
 - Define schemas more modularly, combine them by reference.
 - $id is used to assign unique identifiers to schemas
 - Registry: Collection of resources, where each resource is a schema or a part of schema that has a unique identifier.
@@ -128,3 +128,17 @@
   "ticker": "GOOGL",
   "price": 100.2
 }
+
+# 4. Understanding JSONPath
+
+- JSONPath is a query language for JSON documents
+- Inspired by Xpath (its older sibling is XML)
+- Interactive exploration: <a>https://www.jsonpath.com/</a>
+
+# 5. Diffing Payloads
+## 5.1. Standard Library's Difflib
+
+- How do we compare two JSON documents?
+- One (not so great) idea: string compare them using the built-in Difflib library
+- Easier diffing with JSONDiff (lightweight alternative)
+- Using DeepDiff: Design for deep comparison for complex python objects
